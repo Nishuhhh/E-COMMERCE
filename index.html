@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    
+    <link rel="stylesheet"  href="style.css">  
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div id="EcommerceContainer">
+        <header>
+            <ul class='header'>
+               
+                
+
+
+
+
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="store.html">STORE</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+            
+
+        
+
+                
+
+                <a id="cart-holder" href="#cart" class="cart-holder">
+                    cart<span class='cart-number'>0</span>
+                </a>
+            </ul>
+            <h1  class="band name large">THE Generics </h1>
+            </header>
+            <section id="Product" class="container">
+                <h2>PRODUCT</h2>
+                <div id ="music-content">
+                    <div id='album1'>
+                        <h3>Album 1</h3>
+                        <div class="image-container">
+                            <img class="prod-images" src="https://rukminim1.flixcart.com/image/150/150/xif0q/ethnic-set/4/q/s/m-teal-ghanti-gvs-shoppe-original-imag9wzqb4zgr58h-bb.jpeg?q=70" alt="">
+                        </div>
+                                        <div class="prod-details">
+                            <span>$<span>12.99</span></span>
+                            <button class="shop-item-button" type='button'>ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div id='album2'>
+                        <h3>Album 2</h3>
+                        <div class="image-container">
+                            <img class="prod-images" src="https://rukminim1.flixcart.com/image/150/150/kwxv98w0/home-cleaning-set/o/0/c/art-no-sz-0086-spotzero-by-milton-original-imag9g8zajm2ffjw.jpeg?q=70" alt="">
+                        </div>
+                                        <div class="prod-details">
+                            <span>$<span>14.99</span></span>
+                            <button class="shop-item-button" type='button'>ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div id='album3'>
+                        <h3>Album 3</h3>
+                        <div class="image-container">
+                            <img class="prod-images" src="https://rukminim1.flixcart.com/image/150/150/kqv8vww0/shoe/c/r/i/7-rainbow-sone-belly-red-7-clorigs-red-original-imag4s8qvzmkehgd.jpeg?q=70" alt="">
+                        </div>
+                                        <div class="prod-details">
+                            <span>$<span>9.99</span></span>
+                            <button class="shop-item-button" type='button'>ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div id='album4'>
+                        <h3>Album 4</h3>
+                        <div class="image-container">
+                            <img class="prod-images" src="https://rukminim1.flixcart.com/image/150/150/ky0g58w0/hand-messenger-bag/e/r/0/fashion-pu-top-handle-bags-shoulder-strap-women-bag-ladies-original-imagac9guvcbwfgy.jpeg?q=70" alt="">
+                        </div>
+                                        <div class="prod-details">
+                            <span>$<span>19.99</span></span>
+                            <button class="shop-item-button" type='button'>ADD TO CART</button>
+                        </div>
+                    </div>
+                    </div>
+                    </section>
+
+                    <section id="merch" class="container">
+                        <h2>MERCH</h2>
+                        <div id="merch-content">
+                            <div id="t-shirt">
+                                <h3>T-Shirt</h3>
+                                <div class="image-container">
+                                    <img class="prod-images" src="https://rukminim1.flixcart.com/image/150/150/xif0q/kurta/a/m/0/xl-half-kurta-elepants-original-imagekgnhrways5f-bb.jpeg?q=70" alt="">
+                                </div>
+                                            <div class="prod-details">
+                                    <span>$<span>19.99</span></span>
+                                    <button class="shop-item-button" type='button'>ADD TO CART</button>
+                                </div>
+                            </div>
+
+                            <div id="coffee-cup">
+                                <h3>Coffee Cup</h3>
+                                <div class="image-container">
+                                    <img class="prod-images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ZnKM5P26IvyPMEEMO53T9wbdj7yDdreMlqh9nRzSNw&s" alt="">
+                                </div>
+                                            <div class="prod-details">
+                                    <span>$<span>6.99</span></span>
+                                    <button class="shop-item-button" type='button'>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                            </section>
+                            <section id="cart" class="container404">
+                                <h2>CART</h2>
+                                <button id="cancel" class="cancel">X</button>
+                                <div class="cart-row cart-header">
+                                    <span class='cart-item cart-column'>ITEM</span>
+                                    <span class='cart-price cart-column'>PRICE</span>
+                                    <span class='cart-quantity cart-column'>QUANTITY</span>
+                                </div>
+                                <div class='cart-items'>
+                                    <!-- <div class="cart-row">
+                                        <span class='cart-item cart-column'>
+                                            <img class='cart-img' src="img/Shirt.png" alt="">
+                                            <span>T-Shirt</span>
+                                        </span>
+                                        <span class='cart-price cart-column'>$19.99</span>
+                                        <span class='cart-quantity cart-column'>
+                                            <input type="text">
+                                            <button>REMOVE</button>
+                                        </span>
+                                    </div>
+                                    <div class="cart-row">
+                                        <span class='cart-item cart-column'>
+                                            <img class='cart-img' src="/img/Album 3.png" alt="">
+                                            <span>Album 3</span>
+                                        </span>
+                                        <span class='cart-price cart-column'>$9.99</span>
+                                        <span class='cart-quantity cart-column'>
+                                            <input type="text">
+                                            <button>REMOVE</button>
+                                        </span>
+                                    </div> -->
+                                </div>
+                                <div class="cart-total">
+                                    <span>
+                                        <span class='total-title'> <strong>Total</strong>
+                                            </span>
+                                        $<span id='total-value'>0</span>
+                                    </span>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <button class='purchase-btn' type='button'>PURCHASE</button>
+                            </section>
+                    
+                            <button class="cart-btn-bottom"> <a href="#cart" class="cart-bottom">See the cart</a></button>
+                        </div>
+                            
+                            </section>
+                            <footer>
+                                <div class="footer-title">
+                                    The Generics
+                                </div>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li><a href="https://www.youtube.com">
+                                            <img src="data:image/png;base64,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" alt="">
+                                        </a></li>
+                                        
+
+                                        </a></li>
+                                        <li><a href="https://facebook.com">
+                                            <img src="data:image/png;base64,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" alt="">
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+
+</body>
+</html>
